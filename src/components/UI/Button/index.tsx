@@ -29,5 +29,5 @@ export default function Button<T extends ElementType = "button">({
   const classNames = clx(baseClasses, sizeClasses[size], variantClass, className);
 
  
-  return <Component className={classNames} {...(rest as any)} />;
+  return <Component className={classNames} {...rest} />;
 }

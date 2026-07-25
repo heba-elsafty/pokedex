@@ -23,5 +23,5 @@ export default function Card<T extends ElementType = "div">({
     className,
   );
 
-  return <Component className={classNames} {...(rest as any)} />;
+  return <Component className={classNames} {...rest} />;
 }
