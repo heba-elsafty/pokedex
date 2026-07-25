@@ -5,7 +5,7 @@ import PokemonNotFound from "./PokemonNotFound";
 import { ErrorMessage, QueryBoundary } from "../../UI";
 import { ApiError } from "../../../api/httpClient";
 import PokemonDetailsSkeleton from "../Skeletons/PokemonDetailsSkeleton";
-import PokemonDetailCard from "./PokemonDetailCard";
+import PokemonDetailCard from "../Cards/PokemonDetailCard";
 
 export default function PokemonDetail() {
   const { name } = useParams<{ name: string }>();

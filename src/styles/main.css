@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
- 
 @theme {
   --color-background: #f8fafc; /* page background */
   --color-surface: #ffffff; /* cards, panels */
