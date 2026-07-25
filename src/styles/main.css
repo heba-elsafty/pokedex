@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+ 
+@theme {
+  --color-background: #f8fafc; /* page background */
+  --color-surface: #ffffff; /* cards, panels */
+  --color-muted: #f1f5f9; /* subtle fills: hover states, tab track */
+  --color-placeholder: #e2e8f0; /* skeleton / loading blocks */
+  --color-border: #e2e8f0; /* hairlines, card/button borders */
+  --color-primary: #0f172a; /* main action color (buttons, active states) */
+  --color-primary-hover: #334155;
+  --color-ink: #0f172a; /* primary text */
+  --color-ink-muted: #64748b; /* secondary text */
+  --color-ink-subtle: #94a3b8; /* faint/placeholder text */
+  --color-ink-faint: #cbd5e1; /* decorative text (e.g. big error codes) */
+  --color-danger: #dc2626; /* error text/icons */
+
+  --radius-control: 0.5rem; /* buttons, inputs, small badges */
+  --radius-card: 0.5rem; /* list/grid cards */
+  --radius-panel: 0.75rem; /* large surfaces (detail panel, modals) */
+}
+
+body {
+  @apply bg-background text-ink;
+}
