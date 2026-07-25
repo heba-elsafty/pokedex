@@ -32,7 +32,7 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Prepare env
-        run: cp .env.example .env
+        run: cp .env .env.local
 
       - name: Build
         run: yarn build
