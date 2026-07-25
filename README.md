@@ -8,7 +8,7 @@ A responsive Pokémon browser built with React + TypeScript. Includes a paginate
 
 ```bash
 yarn install
-cp .env .env.local
+cp .env
 yarn dev
 ```
 
