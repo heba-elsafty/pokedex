@@ -8,7 +8,6 @@ A responsive Pokémon browser built with React + TypeScript. Includes a paginate
 
 ```bash
 yarn install
-echo "VITE_API_BASE_URL=https://pokeapi.co/api/v2" > .env
 yarn dev
 ```
 
