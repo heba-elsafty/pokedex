@@ -23,7 +23,10 @@ export default function PokemonDetail() {
         <QueryBoundary
           fallback={<PokemonDetailsSkeleton />}
           errorFallback={({ error, resetErrorBoundary }) => {
-            if (error instanceof ApiError && error.status === 404) {
+            if (
+              error instanceof ApiError &&
+              (error.status === 404 || error.status === 400)
+            ) {
               return (
                 <div className="mt-8">
                   <PokemonNotFound />
